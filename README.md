@@ -2,7 +2,7 @@
 
 # Alle Erklärungen
 [ReadMe](/doku/readme.md)  
-[ReadMe Master](/doku/README_MASTER)  
+[ReadMe Master](/doku/README_MASTER.md)  
 [ReadMe Debug](/doku/README_Debug.md)  
 
 # Detailseiten Readme
