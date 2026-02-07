@@ -1,0 +1,2 @@
+# Favoriten
+Favoriten-Seite
