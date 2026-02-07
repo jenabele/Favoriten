@@ -1,3 +1,3 @@
 ## Favoriten
 # README
-(ReadMe)[README_MASTER.md]
+[ReadMe](README_MASTER.md)
