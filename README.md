@@ -10,8 +10,8 @@
 [Detailseite2](/doku/readme_detailseiten%20(1).md)  
 
 # Style/CSS Readme
-[CSS 1](/doku/README_CSS_Referenz.md)
-[CSS 2](/doku/readme_css_erklaerungen.md)
-[CSS 3](/doku/readme_css_erklaerungen(1).md)
-[Style CleanUp](/doku/style.clean.md)
-[CSS Debug](/doku/DEBUG_LAYOUT.md)
+[CSS 1](/doku/README_CSS_Referenz.md)  
+[CSS 2](/doku/readme_css_erklaerungen.md)  
+[CSS 3](/doku/readme_css_erklaerungen(1).md)  
+[Style CleanUp](/doku/style.clean.css)  
+[CSS Debug](/doku/DEBUG_LAYOUT.md)  
