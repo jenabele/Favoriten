@@ -1,1 +1,134 @@
+/* ===== Basis ===== */
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    margin: 40px;
+    background: lightgrey;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* ===== Grid für wichtige Links ===== */
+.box-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(160px, 160px));
+
+    gap: 20px;
+    align-items: stretch; /* alle Boxen gleich hoch */
+    justify-items: stretch; /* verschiedene Browser */
+    margin-bottom: 40px;    /*WICHTIG: Abstand zu nächsten Bereichen*/
+}
+
+
+/* ===== Neue Einfache Box so dass Boxen auch bei gr./kl Bildschirmen gut aussehen, gleichmäßig verteilt werden ===== */
+.link-box {
+    width: 100%;
+    max-width: 180px;   /* verhindert Mini-Boxen */
+    min-height: 130px;
+
+    display: flex;
+    flex-direction: column;  /* Bild über Text */
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+
+    background: #f5f5f5;
+    border: 2px solid #888;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+/* ===== Bild ===== */
+.link-box img {
+    width: 48px;
+    height: 48px;    /* ALLE Bilder gleich hoch */
+    object-fit: contain;
+    margin-bottom: 12px;
+    display:block;  /*garantiert das Bild alleine in einer Zeile und Text darunter*/
+}
+
+/* ===== Text ===== */
+.link-box span {
+    display: block; /* erzwingt, dass Text immer unterm Bild  */
+    word-break: break-word;
+    hyphens: auto;
+}
+
+/* ===== Hover ===== */
+.link-box:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+}
+
+/* =====Erweiterung für die anderen Themenbereiche ======= */
+
+/* ===== Grid für Themenbereiche ===== */
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);      /* TEST */
+/*    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  */
+    gap: 30px;
+    align-items: stretch;
+
+    margin-top:40px;    /* trennt visuell vom wichtigen Links  */
+}
+
+/* ===== Wrapper pro Themenblock ===== */
+.group-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* ===== Überschrift ===== */
+.group-title {
+    min-height: 60px;                 /* ALLE gleich hoch */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+
+    background-color: #6b6b6b;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+
+/* ===== .group gleiche Höhe für ALLE ===== */
+.group {
+    min-height: 64px;        /* Schlüssel */
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #a0a0a0;
+
+    box-sizing: border-box;
+}
+
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 
