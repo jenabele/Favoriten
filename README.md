@@ -1,3 +1,3 @@
 ## Favoriten
 # README
-[ReadMe](Favoriten/doku/readme.md)
+[ReadMe](/doku/readme.md)
