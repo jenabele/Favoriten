@@ -1,9 +1,9 @@
 ## Favoriten ReadME
 
 # Alle Erklärungen
-[ReadMe](/doku/readme.md)
-[ReadMe Master](/doku/README_MASTER)
-[ReadMe Debug](/doku/README_Debug.md)
+[ReadMe](/doku/readme.md)  
+[ReadMe Master](/doku/README_MASTER)  
+[ReadMe Debug](/doku/README_Debug.md)  
 
 # Detailseiten Readme
 [Detailseite1](/doku/README_Detailseiten(2).md)
