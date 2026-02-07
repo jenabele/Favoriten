@@ -6,8 +6,8 @@
 [ReadMe Debug](/doku/README_Debug.md)  
 
 # Detailseiten Readme
-[Detailseite1](/doku/README_Detailseiten (2).md)
-[Detailseite2](/doku/readme_detailseiten(1).md)
+[Detailseite1](/doku/README_Detailseiten%20(2).md)  
+[Detailseite2](/doku/readme_detailseiten%20(1).md)  
 
 # Style/CSS Readme
 [CSS 1](/doku/README_CSS_Referenz.md)
